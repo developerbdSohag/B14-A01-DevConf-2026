@@ -100,3 +100,67 @@ nav a:hover{
     line-height:1.6;
     margin-bottom:40px;
 }
+.overlay button {
+    padding:16px 35px;
+    border:none;
+    border-radius:8px;
+    background: blue;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    width:40%;
+}
+.overlay button:hover{
+    background:#1d45d0;
+}
+/*Speaker Saction*/
+.speakers {
+   width:90%;
+   max-width:1200px;
+   margin:auto;
+}
+.speakers h2{
+    text-align:center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+.speaker-container{
+    display:grid;
+    grid-template-columns:
+    repeat(2,1fr);
+    gap:30px;
+}
+.card{
+    background:white;
+
+    border:1px solid #ddd;
+
+    border-radius:10px;
+
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card-content small{
+    color:#2952E3;
+    font-weight:bold;
+}
+
+.card-content h3{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.card-content p{
+    color:#666;
+}
