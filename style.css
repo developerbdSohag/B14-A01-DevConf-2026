@@ -73,3 +73,30 @@ nav a:hover{
 .btn:hover{
     background:#1d45d0;
 }
+.hero{
+    background-image: url(assets/banner.jpg);
+    height:700px;
+    background-size: cover;
+    background-position: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay{
+    width:700px;
+    color:white;
+}
+.overlay h1{
+    font-size: 70px;
+    margin-bottom:35px;
+    font-weight: 700;
+}
+.overlay span{
+    font-style:italic;
+}
+.overlay p{
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:40px;
+}
