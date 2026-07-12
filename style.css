@@ -164,3 +164,143 @@ nav a:hover{
 .card-content p{
     color:#666;
 }
+/*=======================
+     PRICING SECTION
+ =======================*/
+.pricing {
+    width:90%;
+    max-width:1200px;
+    margin:100px auto;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2 {
+    font-size: 52px;
+    color: #162233;
+    margin-bottom: 15px;
+}
+.section-title p {
+    color:#777;
+    font-size: 18px;
+}
+/*=====================
+    CARD CONTAINER 
+ ====================*/
+ .pricing-container {
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+ }
+ /*===================
+        CARD
+  ===================*/
+  .price-card{
+    background:#fff;
+    border:1px solid #e4e4e4;
+    border-radius:14px;
+    padding:35px;
+    transition: 0.35s;
+    display: flex;
+    flex-direction:column;
+  }
+  .price-card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(0,0,0,12);
+  }
+  /*===================
+        ACTIVE CARD
+  ===================*/
+  .active{
+    background: #122033;
+    color:white;
+    transform:scale(1.04);
+  }
+  .active hr{
+    border-color:#34465f;
+  }
+  .active .price-text{
+    color:#c7d2e3;
+  }
+  .active li{
+    color:#dde6f5;
+  }
+  /*===================
+        TEXT
+   ==================*/
+   .plan{
+    font-size: 13px;
+    font-weight: bold;
+    color:#8b8b8b;
+    letter-spacing:1px;
+   }
+   .active .plan{
+    color:#6ea8ff;
+   }
+   .price-card h3{
+    font-size:56px;
+    margin-top:12px;
+   }
+   .price-text{
+    color:#777;
+    margin-bottom:25px;
+   }
+   hr{
+    border:none;
+    border-top:1px solid #ececec;
+    margin-bottom: 25px;
+   }
+   ul{
+    list-style:none;
+    flex:1;
+   }
+   li{
+    margin-bottom:16px;
+    color:#444;
+    font-size: 15px;
+   }
+   li::before{
+    color:#2b61ff;
+    margin-right:10px;
+   }
+   /*===================
+        BUTTONS
+   ===================*/
+   button{
+    width:100%;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+   }
+   .outline-btn{
+    background:white;
+    color:#2b61ff;
+    border:2px solid #2b61ff;
+   }
+   .outline-btn:hover{
+    background:#2b61ff;
+    color:white;
+   }
+   /*Pro*/
+   .primary-btn{
+    background:#2b61ff;
+    color:white;
+    border:none;
+   }
+   .primary-btn:hover{
+    background:#1d4fd7;
+   }
+   /*Team*/
+   .dark-btn{
+    background:white;
+    color:#222;
+    border:2px solid #222;
+   }
+   .dark-btn:hover{
+    background:#222;
+    color:white;
+   }
