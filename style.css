@@ -260,7 +260,8 @@ nav a:hover{
     color:#444;
     font-size: 15px;
    }
-   li::before{
+   .price-card li::before{
+    content:"•";
     color:#2b61ff;
     margin-right:10px;
    }
@@ -368,7 +369,7 @@ nav a:hover{
 }
 
 .logo-icon img{
-    width:55px;
+    width:300px;
 }
 
 .social-links{
